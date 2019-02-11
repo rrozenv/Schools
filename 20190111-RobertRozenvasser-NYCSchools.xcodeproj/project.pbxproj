@@ -30,7 +30,6 @@
 		9882A1AA2211C86E00973EB0 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9882A1A92211C86E00973EB0 /* Environment.swift */; };
 		9882A1B32211C8A500973EB0 /* NetworkServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9882A1AE2211C8A500973EB0 /* NetworkServiceType.swift */; };
 		9882A1B42211C8A500973EB0 /* StorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9882A1AF2211C8A500973EB0 /* StorageType.swift */; };
-		9882A1B82211C98100973EB0 /* StocksUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9882A1B72211C98100973EB0 /* StocksUseCase.swift */; };
 		9882A1BB2211C9BA00973EB0 /* NetworkActivityLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9882A1BA2211C9BA00973EB0 /* NetworkActivityLogger.swift */; };
 		9882A1BD2211C9C600973EB0 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9882A1BC2211C9C600973EB0 /* NetworkError.swift */; };
 		9882A1BF2211C9D500973EB0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9882A1BE2211C9D500973EB0 /* NetworkService.swift */; };
@@ -124,6 +123,7 @@
 		98C4E5672212126D006F9D95 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98C4E5692212126D006F9D95 /* Localizable.strings */; };
 		98C4E56B22121295006F9D95 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C4E56A22121295006F9D95 /* Strings.swift */; };
 		98C4E56D221226DC006F9D95 /* SchoolEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C4E56C221226DC006F9D95 /* SchoolEnvelope.swift */; };
+		98C4E56F22122994006F9D95 /* SchoolsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C4E56E22122994006F9D95 /* SchoolsUseCase.swift */; };
 		AFCC6A6D2892B8BEAE6499C5 /* Pods_20190111_RobertRozenvasser_NYCSchoolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A213EB8EC2C7FF62C699A668 /* Pods_20190111_RobertRozenvasser_NYCSchoolsTests.framework */; };
 		D1E715B41B0F9242DCF621D1 /* Pods_Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8341D9AB5C0C170810850C5 /* Pods_Library.framework */; };
 /* End PBXBuildFile section */
@@ -242,7 +242,6 @@
 		9882A1A92211C86E00973EB0 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		9882A1AE2211C8A500973EB0 /* NetworkServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceType.swift; sourceTree = "<group>"; };
 		9882A1AF2211C8A500973EB0 /* StorageType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageType.swift; sourceTree = "<group>"; };
-		9882A1B72211C98100973EB0 /* StocksUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StocksUseCase.swift; sourceTree = "<group>"; };
 		9882A1BA2211C9BA00973EB0 /* NetworkActivityLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkActivityLogger.swift; sourceTree = "<group>"; };
 		9882A1BC2211C9C600973EB0 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		9882A1BE2211C9D500973EB0 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
@@ -336,6 +335,7 @@
 		98C4E5682212126D006F9D95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		98C4E56A22121295006F9D95 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		98C4E56C221226DC006F9D95 /* SchoolEnvelope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolEnvelope.swift; sourceTree = "<group>"; };
+		98C4E56E22122994006F9D95 /* SchoolsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsUseCase.swift; sourceTree = "<group>"; };
 		9C2B53D4B694A0F64E309B44 /* Pods_20190111_RobertRozenvasser_NYCSchools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20190111_RobertRozenvasser_NYCSchools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A213EB8EC2C7FF62C699A668 /* Pods_20190111_RobertRozenvasser_NYCSchoolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20190111_RobertRozenvasser_NYCSchoolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FEBB6EA24DE3243B795363 /* Pods-20190111-RobertRozenvasser-NYCSchoolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20190111-RobertRozenvasser-NYCSchoolsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-20190111-RobertRozenvasser-NYCSchoolsTests/Pods-20190111-RobertRozenvasser-NYCSchoolsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -553,7 +553,7 @@
 		9882A1B62211C96C00973EB0 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
-				9882A1B72211C98100973EB0 /* StocksUseCase.swift */,
+				98C4E56E22122994006F9D95 /* SchoolsUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -1286,9 +1286,9 @@
 				9882A1A42211C7D800973EB0 /* ActivityTracker.swift in Sources */,
 				9882A1BF2211C9D500973EB0 /* NetworkService.swift in Sources */,
 				9882A2142211CE1200973EB0 /* UIView+Ext.swift in Sources */,
+				98C4E56F22122994006F9D95 /* SchoolsUseCase.swift in Sources */,
 				9882A1B32211C8A500973EB0 /* NetworkServiceType.swift in Sources */,
 				9882A1A32211C7D800973EB0 /* LocalizedString.swift in Sources */,
-				9882A1B82211C98100973EB0 /* StocksUseCase.swift in Sources */,
 				9882A1BB2211C9BA00973EB0 /* NetworkActivityLogger.swift in Sources */,
 				98C4E564221211AA006F9D95 /* SchoolDetailsTemplates.swift in Sources */,
 				9882A1BD2211C9C600973EB0 /* NetworkError.swift in Sources */,

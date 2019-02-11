@@ -69,7 +69,7 @@ public class SchoolsListViewModel {
     
 }
 
-// MARK: - StockViewModel
+// MARK: - SchoolViewModel
 /// Formatted representation of `School`.
 public struct SchoolViewModel: Equatable {
     public let school: School
