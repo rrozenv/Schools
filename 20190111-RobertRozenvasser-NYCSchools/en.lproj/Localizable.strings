@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  20190111-RobertRozenvasser-NYCSchools
+
+  Created by Robert Rozenvasser on 2/11/19.
+  Copyright © 2019 Cluk Labs. All rights reserved.
+*/
+
+"schools" = "Schools";
+"avg_reading_score" = "SAT Reading Score: %{score}";
+"avg_math_score" = "SAT Math Score: %{score}";
+"avg_writing_score" = "SAT Writing Score: %{score}";
+"school_not_found" = "Oops! School not found.";

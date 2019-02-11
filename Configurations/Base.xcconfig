@@ -1,0 +1,13 @@
+//
+//  Base.xcconfig
+//  20190111-RobertRozenvasser-NYCSchools
+//
+//  Created by Robert Rozenvasser on 2/11/19.
+//  Copyright © 2019 Cluk Labs. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BUILD_VERSION = 1.0
+ROOT_URL = https:/$()/data.cityofnewyork.us
