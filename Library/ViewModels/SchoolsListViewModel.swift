@@ -54,6 +54,7 @@ public class SchoolsListViewModel {
                     .trackError(errorTracker)
             }
             .map { $0.schools.map(SchoolViewModel.init) }
+            .share()
         
         // MARK: - Routes to school detail.
         inputs.selectedIndexPath$

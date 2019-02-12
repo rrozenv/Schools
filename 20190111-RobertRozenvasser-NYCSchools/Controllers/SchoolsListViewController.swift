@@ -77,12 +77,11 @@ final class SchoolsListViewController: RxViewController, BindableType {
         outputs.loading$
             .drive(refreshControl.rx.isRefreshing)
             .disposed(by: disposeBag)
-        
+
         /// Displays error.
         outputs.error$
             .drive(rx.displayError)
             .disposed(by: disposeBag)
-        
     }
 
     // MARK: - View Setup

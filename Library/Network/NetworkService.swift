@@ -47,7 +47,7 @@ extension NetworkService {
                     .mapObject(type: SchoolEnvelope.self, errorType: ApiError.self)
                     .concat(Observable.just(result))
         }
-        
+
         return cachedResult.concat(networkResult)
     }
     

@@ -15,15 +15,13 @@ open class RxViewController: UIViewController {
     public let disposeBag = DisposeBag()
     
     /// Called first time viewWillAppear(_:) is invoked.
-    public var initalLoad$: Observable<Void> {
-        return rx.controllerLifecycleState()
-            .filter { $0 == .willAppear }
-            .asObservable()
-            .take(1)
-            .mapToVoid()
-            //.share()
-    }
-    
+    public lazy var initalLoad$ = rx.controllerLifecycleState()
+        .filter { $0 == .willAppear }
+        .asObservable()
+        .take(1)
+        .mapToVoid()
+        .share()
+
     // MARK: View Model Binding
     /// Should override.
     open func bindViewModel() {
